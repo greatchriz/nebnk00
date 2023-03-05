@@ -1,4 +1,6 @@
 <script setup>
+import { CCarousel } from '@coreui/vue';
+
 
 </script>
 
@@ -72,6 +74,19 @@
         </div>
         <!-- * Wallet Footer -->
     </div>
+
+    <CCarousel controls>
+        <CCarouselItem>
+          <img class="" src="/images/vue.jpg" alt="slide 1"/>
+        </CCarouselItem>
+        <CCarouselItem>
+          <img class="" src="/images/react.jpg" alt="slide 2"/>
+        </CCarouselItem>
+        <CCarouselItem>
+          <img class="" src="/images/angular.jpg" alt="slide 3"/>
+        </CCarouselItem>
+      </CCarousel>
+
 </div>
 <!-- Wallet Card -->
 

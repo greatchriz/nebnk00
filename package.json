@@ -19,6 +19,12 @@
         "vue": "^3.2.41"
     },
     "dependencies": {
-        "@headlessui/vue": "^1.7.11"
+        "@coreui/vue": "^4.7.0",
+        "@egjs/vue3-flicking": "^4.10.6",
+        "@headlessui/vue": "^1.7.11",
+        "@splidejs/vue-splide": "^0.6.12",
+        "bootstrap": "^5.2.3",
+        "hooper": "^0.3.4",
+        "primevue": "^3.23.0"
     }
 }
